@@ -5,6 +5,7 @@ using namespace std;
 void fruitstuff(string fruit, int number) {
     cout << "I like " << fruit << " and I have " << number << " bananas." << endl;
     cout << "I have " << number << " " << fruit << "." << endl;
+    cout << "Hello World!" << endl;
 }
 
 int main()
@@ -14,3 +15,4 @@ int main()
     fruitstuff(redfruit, fruitnum);
     return 0;
 }
+// THis does immportant fruit things!
